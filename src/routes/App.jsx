@@ -8,9 +8,14 @@ import Success from "../container/Success"
 import NotFound from "../container/NotFound"
 import Layout from "../components/Layout"
 
+import AppContext from "../context/AppContext"
+import useInitialState from "../hooks/useInitialState"
+
 const App=()=>{
 
+    const initialState=useInitialState()
     return (
+        <AppContext.Provider value={initialState}>
         <BrowserRouter>
         <Layout>
             <Routes>
@@ -23,6 +28,7 @@ const App=()=>{
             </Routes>
         </Layout>
         </BrowserRouter>
+        </AppContext.Provider>
     )
 }
 
