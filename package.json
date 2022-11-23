@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/elviscruz45/react-merch#readme",
   "dependencies": {
+    "@react-google-maps/api": "^2.17.0",
+    "axios": "^1.2.0",
     "babel-eslint": "^10.1.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
@@ -32,6 +34,8 @@
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-paypal-button-v2": "^2.6.3",
     "react-router-dom": "^6.4.3"
   },
   "devDependencies": {

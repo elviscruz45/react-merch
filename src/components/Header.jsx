@@ -27,6 +27,4 @@ return(
     
 }
 
-
 export default Header
-
